@@ -1,0 +1,7 @@
+import "tfrun"
+import "strings"
+
+# Main rule
+main = rule {
+  tfrun.is_destroy is 0
+}

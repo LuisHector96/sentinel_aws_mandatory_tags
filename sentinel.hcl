@@ -16,3 +16,8 @@ policy "enforce-mandatory-tags" {
   enforcement_level = "advisory"
 }
 
+policy "enforce-when-detroy" {
+  source = "./enforce-when-destroy.sentinel"
+  enforcement_level = "advisory"
+}
+
