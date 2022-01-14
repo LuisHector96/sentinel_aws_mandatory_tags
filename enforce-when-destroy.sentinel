@@ -3,5 +3,5 @@ import "strings"
 
 # Main rule
 main = rule {
-  tfrun.is_destroy is 0
+  tfrun.is_destroy is false
 }
